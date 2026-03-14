@@ -30,12 +30,16 @@ Example: Docker Hub.
 
 1️⃣ Check Docker Version
   docker --version
+
 2️⃣ Pull an Image from Docker Hub
    docker pull nginx
+
 3️⃣ List Docker Images
     docker images
+
 4️⃣ Build Docker Image
     docker images
+
 5️⃣ Run a Container  
     docker run -d -p 3000:3000 myapp
 
