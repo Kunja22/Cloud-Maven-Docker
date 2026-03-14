@@ -9,15 +9,19 @@ Docker is an open-source platform used to build, package, and run applications i
 The command line tool (docker) used by users.
 Example command:
 docker run nginx
+
 2.Docker Daemon
 Background service that builds and runs containers.
 It manages Docker objects like containers, images, and networks.
+
 3.Docker Images
 Read-only templates used to create containers.
 Example: an image for Nginx or Node.js.
+
 4.Docker Containers
 Running instance of a Docker image.
 Lightweight and isolated environment.
+
 5.Docker Registry
 Storage location for Docker images.
 Example: Docker Hub.
