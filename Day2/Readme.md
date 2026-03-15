@@ -74,6 +74,7 @@ If the container does not start as expected:
 
 docker ps -a                 # List all containers
 docker logs <container_id>   # View logs
+echo "Cloud Maven Docker Project" >> README.md
 
 This helps identify errors such as missing dependencies, incorrect ports, or code issues.
 
